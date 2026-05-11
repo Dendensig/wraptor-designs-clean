@@ -3,8 +3,13 @@ export default function App() {
     <div>
 
       <header className="navbar">
-        <div className="logo">
-          WRAPTOR DESIGNS
+        <div className="logo-wrap">
+          <div className="logo-icon">R</div>
+
+          <div className="logo-text">
+            <span className="logo-main">WRAPTOR</span>
+            <span className="logo-sub">DESIGNS</span>
+          </div>
         </div>
 
         <nav>
@@ -12,47 +17,63 @@ export default function App() {
           <a href="#transformations">Transformations</a>
           <a href="#contact">Contact</a>
         </nav>
+
+        <a className="quote-button" href="#contact">
+          Start Your Project
+        </a>
       </header>
 
       <section className="hero">
 
         <div className="overlay"></div>
 
-        <div className="hero-content">
+        <div className="hero-grid">
 
-          <p className="eyebrow">
-            Premium Vinyl Wraps & Brand Transformations
-          </p>
+          <div className="hero-left">
 
-          <h1>
-            WE WRAP
-            <span>ATTENTION</span>
-          </h1>
+            <p className="eyebrow">
+              Premium Vinyl Wraps & Brand Transformations
+            </p>
 
-          <p className="subtitle">
-            Wraptor Designs transforms vehicles, storefronts,
-            fleets, and brands into high-impact visual experiences
-            engineered to dominate attention.
-          </p>
+            <h1>
+              WE WRAP
+              <span>ATTENTION</span>
+            </h1>
 
-          <div className="hero-buttons">
-            <a href="#contact">
-              Start Your Transformation
-            </a>
+            <p className="subtitle">
+              Wraptor Designs transforms vehicles, storefronts,
+              fleets, and brands into high-impact visual experiences
+              engineered to dominate attention.
+            </p>
 
-            <a href="#services">
-              Explore Services
-            </a>
+            <div className="hero-buttons">
+              <a href="#contact">
+                Start Your Transformation
+              </a>
+
+              <a href="#services" className="secondary-button">
+                Explore Services
+              </a>
+            </div>
+
+          </div>
+
+          <div className="hero-right">
+            <img
+              src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+              alt="Wrapped Supercar"
+            />
           </div>
 
         </div>
+
       </section>
 
       <section id="services" className="section dark">
 
-        <h2>
-          What We Transform
-        </h2>
+        <div className="section-title-wrap">
+          <h2>What We Transform</h2>
+        </div>
 
         <div className="card-grid">
 
@@ -89,28 +110,26 @@ export default function App() {
           </div>
 
         </div>
+
       </section>
 
-      <section id="transformations" className="section">
+      <section id="transformations" className="section transformations-section">
 
-        <h2>
-          Featured Transformations
-        </h2>
+        <div className="section-title-wrap">
+          <h2>Featured Transformations</h2>
+        </div>
 
         <div className="gallery-grid">
 
-          <div className="gallery-card"></div>
-
-          <div className="gallery-card"></div>
-
-          <div className="gallery-card"></div>
+          <div className="gallery-card gallery-1"></div>
+          <div className="gallery-card gallery-2"></div>
+          <div className="gallery-card gallery-3"></div>
 
         </div>
+
       </section>
 
       <section className="impact-section">
-
-        <div className="impact-overlay"></div>
 
         <div className="impact-content">
 
@@ -119,8 +138,8 @@ export default function App() {
           </p>
 
           <h2>
-            Your Brand Deserves
-            <span> More Attention</span>
+            BE SEEN.
+            <span> DOMINATE.</span>
           </h2>
 
           <p>
@@ -161,3 +180,4 @@ export default function App() {
     </div>
   )
 }
+
