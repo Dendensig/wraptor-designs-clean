@@ -1,3 +1,4 @@
+
 export default function App() {
   return (
     <div>
@@ -8,7 +9,7 @@ export default function App() {
           <p className="eyebrow">Michigan Premium Vinyl Graphics</p>
 
           <h1>
-            WRAPTOR Designs Live
+            WRAPTOR
             <span>DESIGNS</span>
           </h1>
 
