@@ -89,6 +89,31 @@ export default function App() {
 
       </section>
 
+      {/* FULLSCREEN SHOWCASE */}
+
+      <section className="fullscreen-showcase">
+
+        <div className="showcase-overlay"></div>
+
+        <div className="showcase-content">
+
+          <p>
+            Built To Be Seen
+          </p>
+
+          <h2>
+            WE DON’T JUST
+            <span> WRAP VEHICLES.</span>
+          </h2>
+
+          <h3>
+            WE WRAP ATTENTION.
+          </h3>
+
+        </div>
+
+      </section>
+
       <section
         id="transformations"
         className="section dark"
