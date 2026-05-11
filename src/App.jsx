@@ -78,9 +78,9 @@ export default function App() {
 
           <div className="hero-right">
 
-            <img
-              src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
-              alt="Wraptor Supercar"
+            <img 
+  src="/hero-car.png"
+  alt="Wraptor Supercar"
             />
 
           </div>
