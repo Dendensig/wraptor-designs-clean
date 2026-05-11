@@ -2,8 +2,9 @@ export default function App() {
   return (
     <div>
 
-      {/* GLOBAL CLAW OVERLAY */}
       <div className="global-claw-overlay"></div>
+
+      {/* NAVBAR */}
 
       <header className="navbar">
 
@@ -244,6 +245,15 @@ export default function App() {
                 dominate attention from every angle.
               </p>
 
+              <div className="portfolio-specs">
+
+                <span>Satin Performance Wrap</span>
+                <span>Custom Livery System</span>
+                <span>Ceramic Protection</span>
+                <span>Visual Identity Package</span>
+
+              </div>
+
             </div>
 
           </div>
@@ -275,6 +285,15 @@ export default function App() {
                 vehicles into rolling brand dominance.
               </p>
 
+              <div className="portfolio-specs">
+
+                <span>Fleet Graphics Package</span>
+                <span>Commercial Brand System</span>
+                <span>High-Visibility Layout</span>
+                <span>Business Identity Wrap</span>
+
+              </div>
+
             </div>
 
           </div>
@@ -305,6 +324,15 @@ export default function App() {
                 combining aggressive geometry, cinematic
                 lighting, and modern motorsports attitude.
               </p>
+
+              <div className="portfolio-specs">
+
+                <span>Street Performance Livery</span>
+                <span>Custom Accent Graphics</span>
+                <span>Gloss Protection Finish</span>
+                <span>Motorsports Styling Package</span>
+
+              </div>
 
             </div>
 
