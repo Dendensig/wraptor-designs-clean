@@ -6,9 +6,11 @@ export default function App() {
 
         <div className="logo-wrap">
 
-          <div className="logo-icon">
-            R
-          </div>
+          <img
+            src="/wraptor-emblem.png"
+            alt="Wraptor Emblem"
+            className="real-logo"
+          />
 
           <div className="logo-text">
 
@@ -300,8 +302,6 @@ export default function App() {
 
       </section>
 
-      {/* PREMIUM FOOTER */}
-
       <footer className="footer">
 
         <div className="footer-glow"></div>
@@ -309,6 +309,12 @@ export default function App() {
         <div className="footer-content">
 
           <div className="footer-brand">
+
+            <img
+              src="/wraptor-emblem.png"
+              alt="Wraptor Emblem"
+              className="footer-logo"
+            />
 
             <h2>
               WRAPTOR
