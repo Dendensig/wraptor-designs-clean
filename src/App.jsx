@@ -31,7 +31,7 @@ export default function App() {
 
         <nav>
           <a href="#services">Services</a>
-          <a href="#transformations">Transformations</a>
+          <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
         </nav>
 
@@ -41,9 +41,10 @@ export default function App() {
 
       </header>
 
+      {/* HERO */}
+
       <section className="hero">
 
-        {/* HERO CLAW ATMOSPHERE */}
         <div className="hero-claw-overlay"></div>
 
         <div className="hero-overlay"></div>
@@ -62,9 +63,10 @@ export default function App() {
             </h1>
 
             <p className="subtitle">
-              Wraptor Designs transforms vehicles, storefronts,
-              fleets, and brands into high-impact visual experiences
-              engineered to dominate attention.
+              Wraptor Designs transforms vehicles,
+              storefronts, fleets, and brands into
+              high-impact visual experiences engineered
+              to dominate attention.
             </p>
 
             <div className="hero-buttons">
@@ -74,10 +76,10 @@ export default function App() {
               </a>
 
               <a
-                href="#transformations"
+                href="#portfolio"
                 className="secondary-button"
               >
-                View Our Work
+                View Featured Builds
               </a>
 
             </div>
@@ -96,6 +98,8 @@ export default function App() {
         </div>
 
       </section>
+
+      {/* FULLSCREEN SHOWCASE */}
 
       <section className="fullscreen-showcase">
 
@@ -120,49 +124,7 @@ export default function App() {
 
       </section>
 
-      <section
-        id="transformations"
-        className="section dark"
-      >
-
-        <div className="section-title-wrap">
-
-          <p className="impact-small">
-            Transformation
-          </p>
-
-          <h2>
-            BEFORE ORDINARY.
-            <span style={{ color: '#a8ff00' }}>
-              {' '}AFTER WRAPTOR.
-            </span>
-          </h2>
-
-        </div>
-
-        <div
-          style={{
-            maxWidth: '1400px',
-            margin: 'auto',
-            borderRadius: '24px',
-            overflow: 'hidden',
-            border: '1px solid rgba(168,255,0,0.12)',
-            boxShadow: '0 0 40px rgba(168,255,0,0.08)'
-          }}
-        >
-
-          <img
-            src="/transform-van.png"
-            alt="Before and After Wrap Transformation"
-            style={{
-              width: '100%',
-              display: 'block'
-            }}
-          />
-
-        </div>
-
-      </section>
+      {/* SERVICES */}
 
       <section
         id="services"
@@ -231,27 +193,173 @@ export default function App() {
 
       </section>
 
-      <section className="section transformations-section">
+      {/* FEATURED PORTFOLIO */}
+
+      <section
+        id="portfolio"
+        className="section dark"
+      >
 
         <div className="section-title-wrap">
 
+          <p className="impact-small">
+            Signature Builds
+          </p>
+
           <h2>
-            Featured Builds
+            FEATURED
+            <span style={{ color: '#a8ff00' }}>
+              {' '}PORTFOLIO
+            </span>
           </h2>
 
         </div>
 
-        <div className="gallery-grid">
+        <div className="portfolio-grid">
 
-          <div className="gallery-card gallery-1"></div>
+          {/* BUILD 1 */}
 
-          <div className="gallery-card gallery-2"></div>
+          <div className="portfolio-card">
 
-          <div className="gallery-card gallery-3"></div>
+            <div
+              className="portfolio-image"
+              style={{
+                backgroundImage: "url('/hero-car.png')"
+              }}
+            ></div>
+
+            <div className="portfolio-content">
+
+              <span className="portfolio-tag">
+                Exotic Supercar
+              </span>
+
+              <h3>
+                SHADOW STRIKE GT
+              </h3>
+
+              <p>
+                Aggressive satin-black and toxic green
+                performance wrap system designed to
+                dominate attention from every angle.
+              </p>
+
+            </div>
+
+          </div>
+
+          {/* BUILD 2 */}
+
+          <div className="portfolio-card">
+
+            <div
+              className="portfolio-image"
+              style={{
+                backgroundImage: "url('/wraptor-van.png')"
+              }}
+            ></div>
+
+            <div className="portfolio-content">
+
+              <span className="portfolio-tag">
+                Fleet Branding
+              </span>
+
+              <h3>
+                APEX FLEET ONE
+              </h3>
+
+              <p>
+                High-visibility commercial wrap package
+                engineered to transform everyday business
+                vehicles into rolling brand dominance.
+              </p>
+
+            </div>
+
+          </div>
+
+          {/* BUILD 3 */}
+
+          <div className="portfolio-card">
+
+            <div
+              className="portfolio-image"
+              style={{
+                backgroundImage: "url('/wraptor-truck.png')"
+              }}
+            ></div>
+
+            <div className="portfolio-content">
+
+              <span className="portfolio-tag">
+                Performance Truck
+              </span>
+
+              <h3>
+                ROGUE TITAN
+              </h3>
+
+              <p>
+                Street-performance inspired wrap concept
+                combining aggressive geometry, cinematic
+                lighting, and modern motorsports attitude.
+              </p>
+
+            </div>
+
+          </div>
 
         </div>
 
       </section>
+
+      {/* TRANSFORMATION */}
+
+      <section
+        className="section dark"
+      >
+
+        <div className="section-title-wrap">
+
+          <p className="impact-small">
+            Transformation
+          </p>
+
+          <h2>
+            BEFORE ORDINARY.
+            <span style={{ color: '#a8ff00' }}>
+              {' '}AFTER WRAPTOR.
+            </span>
+          </h2>
+
+        </div>
+
+        <div
+          style={{
+            maxWidth: '1400px',
+            margin: 'auto',
+            borderRadius: '24px',
+            overflow: 'hidden',
+            border: '1px solid rgba(168,255,0,0.12)',
+            boxShadow: '0 0 40px rgba(168,255,0,0.08)'
+          }}
+        >
+
+          <img
+            src="/transform-van.png"
+            alt="Before and After Wrap Transformation"
+            style={{
+              width: '100%',
+              display: 'block'
+            }}
+          />
+
+        </div>
+
+      </section>
+
+      {/* IMPACT */}
 
       <section className="impact-section">
 
@@ -267,14 +375,16 @@ export default function App() {
           </h2>
 
           <p>
-            Wraptor Designs creates high-performance visual branding
-            systems that stop traffic, increase recognition,
-            and elevate perception.
+            Wraptor Designs creates high-performance
+            visual branding systems that stop traffic,
+            increase recognition, and elevate perception.
           </p>
 
         </div>
 
       </section>
+
+      {/* CONTACT */}
 
       <section
         id="contact"
@@ -307,6 +417,8 @@ export default function App() {
         </div>
 
       </section>
+
+      {/* FOOTER */}
 
       <footer className="footer">
 
@@ -342,7 +454,7 @@ export default function App() {
             </h3>
 
             <a href="#services">Services</a>
-            <a href="#transformations">Transformations</a>
+            <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
 
           </div>
