@@ -254,6 +254,30 @@ export default function App() {
 
               </div>
 
+              <div className="build-details">
+
+                <div className="detail-row">
+                  <span>Platform</span>
+                  <strong>Lamborghini Inspired GT</strong>
+                </div>
+
+                <div className="detail-row">
+                  <span>Finish</span>
+                  <strong>Satin Stealth Film</strong>
+                </div>
+
+                <div className="detail-row">
+                  <span>Protection</span>
+                  <strong>Ceramic Shield Coating</strong>
+                </div>
+
+                <div className="detail-row">
+                  <span>Design Direction</span>
+                  <strong>Motorsport Aggression</strong>
+                </div>
+
+              </div>
+
             </div>
 
           </div>
@@ -291,6 +315,30 @@ export default function App() {
                 <span>Commercial Brand System</span>
                 <span>High-Visibility Layout</span>
                 <span>Business Identity Wrap</span>
+
+              </div>
+
+              <div className="build-details">
+
+                <div className="detail-row">
+                  <span>Vehicle Type</span>
+                  <strong>Commercial Transit Van</strong>
+                </div>
+
+                <div className="detail-row">
+                  <span>Brand Focus</span>
+                  <strong>High Visibility Marketing</strong>
+                </div>
+
+                <div className="detail-row">
+                  <span>Coverage</span>
+                  <strong>Full Commercial Wrap</strong>
+                </div>
+
+                <div className="detail-row">
+                  <span>Visual Style</span>
+                  <strong>Modern Corporate Aggression</strong>
+                </div>
 
               </div>
 
@@ -334,6 +382,30 @@ export default function App() {
 
               </div>
 
+              <div className="build-details">
+
+                <div className="detail-row">
+                  <span>Platform</span>
+                  <strong>Performance Street Truck</strong>
+                </div>
+
+                <div className="detail-row">
+                  <span>Finish</span>
+                  <strong>Gloss Metallic Package</strong>
+                </div>
+
+                <div className="detail-row">
+                  <span>Theme</span>
+                  <strong>Urban Motorsport Styling</strong>
+                </div>
+
+                <div className="detail-row">
+                  <span>Visual Tone</span>
+                  <strong>Aggressive Street Presence</strong>
+                </div>
+
+              </div>
+
             </div>
 
           </div>
@@ -344,9 +416,7 @@ export default function App() {
 
       {/* TRANSFORMATION */}
 
-      <section
-        className="section dark"
-      >
+      <section className="section dark">
 
         <div className="section-title-wrap">
 
