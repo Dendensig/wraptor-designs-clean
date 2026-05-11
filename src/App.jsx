@@ -3,13 +3,23 @@ export default function App() {
     <div>
 
       <header className="navbar">
+
         <div className="logo-wrap">
-          <div className="logo-icon">R</div>
+
+          <div className="logo-icon">
+            R
+          </div>
 
           <div className="logo-text">
-            <span className="logo-main">WRAPTOR</span>
-            <span className="logo-sub">DESIGNS</span>
+            <span className="logo-main">
+              WRAPTOR
+            </span>
+
+            <span className="logo-sub">
+              DESIGNS
+            </span>
           </div>
+
         </div>
 
         <nav>
@@ -21,18 +31,19 @@ export default function App() {
         <a className="quote-button" href="#contact">
           Start Your Project
         </a>
+
       </header>
 
       <section className="hero">
 
-        <div className="overlay"></div>
+        <div className="hero-overlay"></div>
 
         <div className="hero-grid">
 
           <div className="hero-left">
 
             <p className="eyebrow">
-              Premium Vinyl Wraps & Brand Transformations
+              Premium Wraps. Bold Brands. Maximum Impact.
             </p>
 
             <h1>
@@ -47,32 +58,41 @@ export default function App() {
             </p>
 
             <div className="hero-buttons">
+
               <a href="#contact">
                 Start Your Transformation
               </a>
 
-              <a href="#services" className="secondary-button">
-                Explore Services
+              <a href="#transformations" className="secondary-button">
+                View Our Work
               </a>
+
             </div>
 
           </div>
 
           <div className="hero-right">
+
             <img
               src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
               alt="Wrapped Supercar"
             />
+
           </div>
 
         </div>
 
       </section>
 
-      <section id="services" className="section dark">
+      <section
+        id="services"
+        className="section dark"
+      >
 
         <div className="section-title-wrap">
-          <h2>What We Transform</h2>
+          <h2>
+            What We Transform
+          </h2>
         </div>
 
         <div className="card-grid">
@@ -86,7 +106,7 @@ export default function App() {
           </div>
 
           <div className="service-card">
-            <h3>Commercial Branding</h3>
+            <h3>Fleet Branding</h3>
 
             <p>
               Fleet and business graphics built to generate visibility and authority.
@@ -113,16 +133,23 @@ export default function App() {
 
       </section>
 
-      <section id="transformations" className="section transformations-section">
+      <section
+        id="transformations"
+        className="section transformations-section"
+      >
 
         <div className="section-title-wrap">
-          <h2>Featured Transformations</h2>
+          <h2>
+            Featured Transformations
+          </h2>
         </div>
 
         <div className="gallery-grid">
 
           <div className="gallery-card gallery-1"></div>
+
           <div className="gallery-card gallery-2"></div>
+
           <div className="gallery-card gallery-3"></div>
 
         </div>
@@ -152,7 +179,10 @@ export default function App() {
 
       </section>
 
-      <section id="contact" className="section dark contact-section">
+      <section
+        id="contact"
+        className="section dark contact-section"
+      >
 
         <h2>
           Start Your Project
@@ -170,9 +200,13 @@ export default function App() {
         </a>
 
         <div className="email-list">
+
           <p>dennis@wraptordesigns.com</p>
+
           <p>orders@wraptordesigns.com</p>
+
           <p>info@wraptordesigns.com</p>
+
         </div>
 
       </section>
@@ -180,4 +214,3 @@ export default function App() {
     </div>
   )
 }
-
