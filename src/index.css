@@ -1261,5 +1261,62 @@ h1 span {
     grid-template-columns:
       1fr !important;
   }
+/* =========================
+   HARD PORTFOLIO RESET
+========================= */
 
+#portfolio .portfolio-grid {
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(3, 1fr) !important;
+
+  gap: 32px !important;
+
+  width: 100% !important;
+
+  max-width: 1400px !important;
+
+  margin: 0 auto !important;
+}
+
+#portfolio .portfolio-card {
+  display: block !important;
+
+  width: 100% !important;
+
+  background: #111111 !important;
+
+  overflow: hidden !important;
+
+  border-radius: 24px !important;
+}
+
+#portfolio .portfolio-image {
+  display: block !important;
+
+  width: 100% !important;
+
+  height: 280px !important;
+
+  background-size: cover !important;
+
+  background-position: center !important;
+
+  background-repeat: no-repeat !important;
+}
+
+#portfolio .portfolio-content {
+  display: block !important;
+
+  padding: 30px !important;
+}
+
+@media (max-width: 1100px) {
+
+  #portfolio .portfolio-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+}
 }
