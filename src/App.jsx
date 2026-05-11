@@ -11,6 +11,7 @@ export default function App() {
           </div>
 
           <div className="logo-text">
+
             <span className="logo-main">
               WRAPTOR
             </span>
@@ -18,6 +19,7 @@ export default function App() {
             <span className="logo-sub">
               DESIGNS
             </span>
+
           </div>
 
         </div>
@@ -63,7 +65,10 @@ export default function App() {
                 Start Your Transformation
               </a>
 
-              <a href="#transformations" className="secondary-button">
+              <a
+                href="#transformations"
+                className="secondary-button"
+              >
                 View Our Work
               </a>
 
@@ -75,7 +80,7 @@ export default function App() {
 
             <img
               src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
-              alt="Wrapped Supercar"
+              alt="Wraptor Supercar"
             />
 
           </div>
@@ -90,43 +95,61 @@ export default function App() {
       >
 
         <div className="section-title-wrap">
+
           <h2>
             What We Transform
           </h2>
+
         </div>
 
         <div className="card-grid">
 
           <div className="service-card">
-            <h3>Vehicle Wraps</h3>
+
+            <h3>
+              Vehicle Wraps
+            </h3>
 
             <p>
               Full and partial wraps designed to create unforgettable road presence.
             </p>
+
           </div>
 
           <div className="service-card">
-            <h3>Fleet Branding</h3>
+
+            <h3>
+              Fleet Branding
+            </h3>
 
             <p>
               Fleet and business graphics built to generate visibility and authority.
             </p>
+
           </div>
 
           <div className="service-card">
-            <h3>Storefront Graphics</h3>
+
+            <h3>
+              Storefront Graphics
+            </h3>
 
             <p>
               Bold visual installations that transform physical locations into brand statements.
             </p>
+
           </div>
 
           <div className="service-card">
-            <h3>Motorsports Design</h3>
+
+            <h3>
+              Motorsports Design
+            </h3>
 
             <p>
               Race-inspired liveries and aggressive visual systems engineered for impact.
             </p>
+
           </div>
 
         </div>
@@ -139,9 +162,11 @@ export default function App() {
       >
 
         <div className="section-title-wrap">
+
           <h2>
             Featured Transformations
           </h2>
+
         </div>
 
         <div className="gallery-grid">
