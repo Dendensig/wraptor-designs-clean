@@ -7,6 +7,16 @@ html {
 }
 
 body {
+:root {
+  --bg: #000000;
+  --panel: #0f0f0f;
+  --text: #ffffff;
+
+  --green: #a8ff00;
+  --blue: #00d4ff;
+
+  --border: #1f1f1f;
+}
   margin: 0;
   background: #000;
   color: red;
@@ -29,7 +39,18 @@ body {
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.72);
+  background: radial-gradient(
+      circle at center,
+      rgba(0,0,0,0.3),
+      rgba(0,0,0,0.95)
+    ),
+    linear-gradient(
+      90deg,
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.4),
+      rgba(0,0,0,0.8)
+    );
+}
 }
 
 .hero-content {
@@ -40,10 +61,11 @@ body {
 }
 
 .eyebrow {
-  color: #ff2d2d;
+  color: var(--green);
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: bold;
+}
 }
 
 h1 {
@@ -53,8 +75,9 @@ h1 {
 }
 
 h1 span {
-  display: block;
-  color: #ff2d2d;
+  color: var(--green);
+  text-shadow: 0 0 20px rgba(168, 255, 0, 0.3);
+}
 }
 
 .subtitle {
@@ -75,16 +98,20 @@ h1 span {
 .contact-button {
   color: white;
   text-decoration: none;
-  border: 2px solid #ff2d2d;
+  border: 2px solid var(--green);
   padding: 16px 28px;
   border-radius: 12px;
   transition: 0.3s ease;
   font-weight: bold;
 }
+}
 
 .hero-buttons a:hover,
 .contact-button:hover {
-  background: #ff2d2d;
+  background: var(--green);
+  color: black;
+  box-shadow: 0 0 20px rgba(168,255,0,0.5);
+}
 }
 
 .section {
@@ -179,8 +206,10 @@ h1 span {
 }
 
 .service-card:hover {
-  transform: translateY(-8px);
-  border-color: #ff2d2d;
+  transform: translateY(-10px);
+  border-color: var(--green);
+  box-shadow: 0 0 25px rgba(168,255,0,0.1);
+}
 }
 
 .gallery-card {
@@ -207,4 +236,6 @@ h1 span {
   .hero-content {
     padding-top: 140px;
   }
+}.glow-blue {
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.4);
 }
