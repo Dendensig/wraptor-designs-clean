@@ -1,7 +1,16 @@
-
 export default function App() {
   return (
     <div>
+      <header className="navbar">
+        <div className="logo">WRAPTOR DESIGNS</div>
+
+        <nav>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
       <section className="hero">
         <div className="overlay"></div>
 
@@ -14,8 +23,9 @@ export default function App() {
           </h1>
 
           <p className="subtitle">
-            High-impact vehicle wraps, commercial graphics, storefront vinyl,
-            motorsports branding, and custom visual identity solutions.
+            Aggressive branding, premium wraps, motorsports styling,
+            commercial graphics, and visual identity systems designed
+            to dominate attention.
           </p>
 
           <div className="hero-buttons">
@@ -32,28 +42,28 @@ export default function App() {
           <div className="service-card">
             <h3>Vehicle Wraps</h3>
             <p>
-              Full and partial wraps designed to dominate attention on the road.
+              Full and partial wraps engineered for maximum visual impact.
             </p>
           </div>
 
           <div className="service-card">
-            <h3>Fleet Graphics</h3>
+            <h3>Fleet Branding</h3>
             <p>
-              Commercial branding solutions that turn work vehicles into rolling advertisements.
+              Turn company vehicles into high-visibility rolling advertisements.
             </p>
           </div>
 
           <div className="service-card">
-            <h3>Storefront Vinyl</h3>
+            <h3>Storefront Graphics</h3>
             <p>
-              Window graphics, decals, and storefront branding with aggressive visual appeal.
+              Bold vinyl graphics and window treatments built to stand out.
             </p>
           </div>
 
           <div className="service-card">
-            <h3>Motorsports Graphics</h3>
+            <h3>Motorsports Design</h3>
             <p>
-              Race-inspired liveries and sponsor layouts engineered for visibility.
+              Race-inspired liveries and sponsor graphics with aggressive styling.
             </p>
           </div>
         </div>
@@ -70,7 +80,7 @@ export default function App() {
       </section>
 
       <section id="contact" className="section dark contact-section">
-        <h2>Contact Wraptor Designs</h2>
+        <h2>Start Your Wrap Project</h2>
 
         <p>Dennis Sigman</p>
 
