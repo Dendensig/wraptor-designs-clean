@@ -1147,3 +1147,24 @@ h1 span {
 
   text-align: right;
 }
+/* =========================
+   LARGE SCREEN PORTFOLIO FIX
+========================= */
+
+.portfolio-grid {
+  align-items: start;
+}
+
+.portfolio-card {
+  max-width: 430px;
+
+  width: 100%;
+}
+
+@media (min-width: 1400px) {
+
+  .portfolio-grid {
+    justify-content: center;
+  }
+
+}
