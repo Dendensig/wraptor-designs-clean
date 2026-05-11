@@ -24,6 +24,56 @@ body {
 }
 
 /* =========================
+   GLOBAL ANIMATION
+========================= */
+
+@keyframes glowPulse {
+
+  0% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+
+}
+
+@keyframes floatMotion {
+
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+
+}
+
+@keyframes fadeUp {
+
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+/* =========================
    NAVBAR
 ========================= */
 
@@ -68,6 +118,9 @@ body {
   font-weight: bold;
 
   color: white;
+
+  animation:
+    glowPulse 4s ease-in-out infinite;
 
   box-shadow:
     0 0 18px rgba(168,255,0,0.25);
@@ -124,12 +177,17 @@ body {
 
   border-radius: 10px;
 
-  transition: 0.3s ease;
+  transition:
+    0.3s ease;
 }
 
 .quote-button:hover {
   background: var(--green);
+
   color: black;
+
+  box-shadow:
+    0 0 20px rgba(168,255,0,0.3);
 }
 
 /* =========================
@@ -151,10 +209,32 @@ body {
   background:
     radial-gradient(
       circle at top right,
-      rgba(168,255,0,0.12),
+      rgba(168,255,0,0.14),
       transparent 35%
     ),
     black;
+}
+
+.hero::before {
+  content: "";
+
+  position: absolute;
+
+  width: 600px;
+  height: 600px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(168,255,0,0.10),
+      transparent 70%
+    );
+
+  top: -150px;
+  right: -150px;
+
+  animation:
+    glowPulse 6s ease-in-out infinite;
 }
 
 .hero-overlay {
@@ -187,6 +267,9 @@ body {
   max-width: 1500px;
 
   margin: auto;
+
+  animation:
+    fadeUp 1.2s ease;
 }
 
 .hero-left {
@@ -221,7 +304,8 @@ h1 span {
   color: var(--green);
 
   text-shadow:
-    0 0 20px rgba(168,255,0,0.25);
+    0 0 20px rgba(168,255,0,0.25),
+    0 0 50px rgba(168,255,0,0.12);
 }
 
 .subtitle {
@@ -256,7 +340,10 @@ h1 span {
 
   border-radius: 12px;
 
-  transition: 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
 
   font-weight: bold;
 }
@@ -266,6 +353,8 @@ h1 span {
   background: var(--green);
 
   color: black;
+
+  transform: translateY(-4px);
 
   box-shadow:
     0 0 25px rgba(168,255,0,0.25),
@@ -279,10 +368,20 @@ h1 span {
 .hero-right img {
   width: 100%;
 
+  animation:
+    floatMotion 6s ease-in-out infinite;
+
+  transition:
+    transform 0.5s ease;
+
   filter:
     drop-shadow(
       0 0 40px rgba(168,255,0,0.18)
     );
+}
+
+.hero-right img:hover {
+  transform: scale(1.03);
 }
 
 /* =========================
@@ -291,6 +390,9 @@ h1 span {
 
 .section {
   padding: 110px 30px;
+
+  animation:
+    fadeUp 1s ease;
 }
 
 .dark {
@@ -343,12 +445,17 @@ h1 span {
 
   padding: 30px;
 
-  transition: 0.35s ease;
+  overflow: hidden;
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .service-card:hover,
 .gallery-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-12px);
 
   border-color: var(--green);
 
@@ -371,6 +478,30 @@ h1 span {
   background-size: cover;
 
   background-position: center;
+
+  position: relative;
+}
+
+.gallery-card::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0,0,0,0.65),
+      transparent
+    );
+
+  opacity: 0;
+
+  transition: 0.4s ease;
+}
+
+.gallery-card:hover::after {
+  opacity: 1;
 }
 
 .gallery-1 {
@@ -409,9 +540,32 @@ h1 span {
   background-size: cover;
 
   background-position: center;
+
+  position: relative;
+}
+
+.impact-section::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(168,255,0,0.06),
+      transparent 60%
+    );
+
+  animation:
+    glowPulse 5s ease-in-out infinite;
 }
 
 .impact-content {
+  position: relative;
+
+  z-index: 2;
+
   max-width: 900px;
 
   margin: auto;
