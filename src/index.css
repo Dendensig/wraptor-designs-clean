@@ -1166,5 +1166,46 @@ h1 span {
   .portfolio-grid {
     justify-content: center;
   }
+/* =========================
+   PORTFOLIO GRID FIX
+========================= */
 
+.portfolio-grid {
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(380px, 1fr)) !important;
+
+  gap: 32px !important;
+
+  max-width: 1400px !important;
+
+  margin: 0 auto !important;
+
+  align-items: start !important;
+}
+
+.portfolio-card {
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  width: 100% !important;
+
+  min-height: 100% !important;
+
+  overflow: hidden !important;
+}
+
+.portfolio-image {
+  width: 100% !important;
+
+  height: 280px !important;
+
+  background-size: cover !important;
+
+  background-position: center !important;
+
+  flex-shrink: 0 !important;
+}
 }
