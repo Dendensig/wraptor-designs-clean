@@ -2,9 +2,12 @@ export default function App() {
   return (
     <div>
 
+      {/* GLOBAL ATMOSPHERE */}
       <div className="global-claw-overlay"></div>
 
-      {/* NAVBAR */}
+      {/* =========================
+          NAVBAR
+      ========================= */}
 
       <header className="navbar">
 
@@ -31,18 +34,33 @@ export default function App() {
         </div>
 
         <nav>
-          <a href="#services">Services</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
+
+          <a href="#services">
+            Services
+          </a>
+
+          <a href="#portfolio">
+            Portfolio
+          </a>
+
+          <a href="#contact">
+            Contact
+          </a>
+
         </nav>
 
-        <a className="quote-button" href="#contact">
+        <a
+          className="quote-button"
+          href="#contact"
+        >
           Start Your Project
         </a>
 
       </header>
 
-      {/* HERO */}
+      {/* =========================
+          HERO
+      ========================= */}
 
       <section className="hero">
 
@@ -100,7 +118,9 @@ export default function App() {
 
       </section>
 
-      {/* FULLSCREEN SHOWCASE */}
+      {/* =========================
+          SHOWCASE
+      ========================= */}
 
       <section className="fullscreen-showcase">
 
@@ -125,7 +145,9 @@ export default function App() {
 
       </section>
 
-      {/* SERVICES */}
+      {/* =========================
+          SERVICES
+      ========================= */}
 
       <section
         id="services"
@@ -194,7 +216,9 @@ export default function App() {
 
       </section>
 
-      {/* FEATURED PORTFOLIO */}
+      {/* =========================
+          PORTFOLIO
+      ========================= */}
 
       <section
         id="portfolio"
@@ -218,14 +242,15 @@ export default function App() {
 
         <div className="portfolio-grid">
 
-          {/* BUILD 1 */}
+          {/* CARD 1 */}
 
           <div className="portfolio-card">
 
             <div
               className="portfolio-image"
               style={{
-                backgroundImage: "url('/hero-car.png')"
+                backgroundImage:
+                  "url('/hero-car.png')"
               }}
             ></div>
 
@@ -257,23 +282,43 @@ export default function App() {
               <div className="build-details">
 
                 <div className="detail-row">
+
                   <span>Platform</span>
-                  <strong>Lamborghini Inspired GT</strong>
+
+                  <strong>
+                    Lamborghini Inspired GT
+                  </strong>
+
                 </div>
 
                 <div className="detail-row">
+
                   <span>Finish</span>
-                  <strong>Satin Stealth Film</strong>
+
+                  <strong>
+                    Satin Stealth Film
+                  </strong>
+
                 </div>
 
                 <div className="detail-row">
+
                   <span>Protection</span>
-                  <strong>Ceramic Shield Coating</strong>
+
+                  <strong>
+                    Ceramic Shield Coating
+                  </strong>
+
                 </div>
 
                 <div className="detail-row">
+
                   <span>Design Direction</span>
-                  <strong>Motorsport Aggression</strong>
+
+                  <strong>
+                    Motorsport Aggression
+                  </strong>
+
                 </div>
 
               </div>
@@ -282,14 +327,15 @@ export default function App() {
 
           </div>
 
-          {/* BUILD 2 */}
+          {/* CARD 2 */}
 
           <div className="portfolio-card">
 
             <div
               className="portfolio-image"
               style={{
-                backgroundImage: "url('/wraptor-van.png')"
+                backgroundImage:
+                  "url('/wraptor-van.png')"
               }}
             ></div>
 
@@ -321,23 +367,43 @@ export default function App() {
               <div className="build-details">
 
                 <div className="detail-row">
+
                   <span>Vehicle Type</span>
-                  <strong>Commercial Transit Van</strong>
+
+                  <strong>
+                    Commercial Transit Van
+                  </strong>
+
                 </div>
 
                 <div className="detail-row">
-                  <span>Brand Focus</span>
-                  <strong>High Visibility Marketing</strong>
-                </div>
 
-                <div className="detail-row">
                   <span>Coverage</span>
-                  <strong>Full Commercial Wrap</strong>
+
+                  <strong>
+                    Full Commercial Wrap
+                  </strong>
+
                 </div>
 
                 <div className="detail-row">
+
+                  <span>Brand Focus</span>
+
+                  <strong>
+                    High Visibility Marketing
+                  </strong>
+
+                </div>
+
+                <div className="detail-row">
+
                   <span>Visual Style</span>
-                  <strong>Modern Corporate Aggression</strong>
+
+                  <strong>
+                    Modern Corporate Aggression
+                  </strong>
+
                 </div>
 
               </div>
@@ -346,14 +412,15 @@ export default function App() {
 
           </div>
 
-          {/* BUILD 3 */}
+          {/* CARD 3 */}
 
           <div className="portfolio-card">
 
             <div
               className="portfolio-image"
               style={{
-                backgroundImage: "url('/wraptor-truck.png')"
+                backgroundImage:
+                  "url('/wraptor-truck.png')"
               }}
             ></div>
 
@@ -385,23 +452,43 @@ export default function App() {
               <div className="build-details">
 
                 <div className="detail-row">
+
                   <span>Platform</span>
-                  <strong>Performance Street Truck</strong>
+
+                  <strong>
+                    Performance Street Truck
+                  </strong>
+
                 </div>
 
                 <div className="detail-row">
+
                   <span>Finish</span>
-                  <strong>Gloss Metallic Package</strong>
+
+                  <strong>
+                    Gloss Metallic Package
+                  </strong>
+
                 </div>
 
                 <div className="detail-row">
+
                   <span>Theme</span>
-                  <strong>Urban Motorsport Styling</strong>
+
+                  <strong>
+                    Urban Motorsport Styling
+                  </strong>
+
                 </div>
 
                 <div className="detail-row">
+
                   <span>Visual Tone</span>
-                  <strong>Aggressive Street Presence</strong>
+
+                  <strong>
+                    Aggressive Street Presence
+                  </strong>
+
                 </div>
 
               </div>
@@ -414,7 +501,9 @@ export default function App() {
 
       </section>
 
-      {/* TRANSFORMATION */}
+      {/* =========================
+          TRANSFORMATION
+      ========================= */}
 
       <section className="section dark">
 
@@ -433,31 +522,21 @@ export default function App() {
 
         </div>
 
-        <div
-          style={{
-            maxWidth: '1400px',
-            margin: 'auto',
-            borderRadius: '24px',
-            overflow: 'hidden',
-            border: '1px solid rgba(168,255,0,0.12)',
-            boxShadow: '0 0 40px rgba(168,255,0,0.08)'
-          }}
-        >
+        <div className="transform-wrap">
 
           <img
             src="/transform-van.png"
-            alt="Before and After Wrap Transformation"
-            style={{
-              width: '100%',
-              display: 'block'
-            }}
+            alt="Wrap Transformation"
+            className="transform-image"
           />
 
         </div>
 
       </section>
 
-      {/* IMPACT */}
+      {/* =========================
+          IMPACT
+      ========================= */}
 
       <section className="impact-section">
 
@@ -482,7 +561,9 @@ export default function App() {
 
       </section>
 
-      {/* CONTACT */}
+      {/* =========================
+          CONTACT
+      ========================= */}
 
       <section
         id="contact"
@@ -506,17 +587,25 @@ export default function App() {
 
         <div className="email-list">
 
-          <p>dennis@wraptordesigns.com</p>
+          <p>
+            dennis@wraptordesigns.com
+          </p>
 
-          <p>orders@wraptordesigns.com</p>
+          <p>
+            orders@wraptordesigns.com
+          </p>
 
-          <p>info@wraptordesigns.com</p>
+          <p>
+            info@wraptordesigns.com
+          </p>
 
         </div>
 
       </section>
 
-      {/* FOOTER */}
+      {/* =========================
+          FOOTER
+      ========================= */}
 
       <footer className="footer">
 
@@ -551,9 +640,17 @@ export default function App() {
               Navigate
             </h3>
 
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a href="#services">
+              Services
+            </a>
+
+            <a href="#portfolio">
+              Portfolio
+            </a>
+
+            <a href="#contact">
+              Contact
+            </a>
 
           </div>
 
@@ -563,8 +660,13 @@ export default function App() {
               Contact
             </h3>
 
-            <p>(269) 277-9151</p>
-            <p>dennis@wraptordesigns.com</p>
+            <p>
+              (269) 277-9151
+            </p>
+
+            <p>
+              dennis@wraptordesigns.com
+            </p>
 
           </div>
 
