@@ -2,6 +2,9 @@ export default function App() {
   return (
     <div>
 
+      {/* GLOBAL CLAW OVERLAY */}
+      <div className="global-claw-overlay"></div>
+
       <header className="navbar">
 
         <div className="logo-wrap">
@@ -39,6 +42,9 @@ export default function App() {
       </header>
 
       <section className="hero">
+
+        {/* HERO CLAW ATMOSPHERE */}
+        <div className="hero-claw-overlay"></div>
 
         <div className="hero-overlay"></div>
 
