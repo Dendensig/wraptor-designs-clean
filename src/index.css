@@ -1208,4 +1208,58 @@ h1 span {
 
   flex-shrink: 0 !important;
 }
+/* =========================
+   FINAL PORTFOLIO STABILIZER
+========================= */
+
+#portfolio .portfolio-grid {
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr)) !important;
+
+  gap: 32px !important;
+
+  max-width: 1400px !important;
+
+  margin: 0 auto !important;
+}
+
+#portfolio .portfolio-card {
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  width: 100% !important;
+
+  overflow: hidden !important;
+
+  min-width: 0 !important;
+}
+
+#portfolio .portfolio-image {
+  display: block !important;
+
+  width: 100% !important;
+
+  height: 280px !important;
+
+  min-height: 280px !important;
+
+  background-size: cover !important;
+
+  background-position: center !important;
+
+  background-repeat: no-repeat !important;
+
+  flex-shrink: 0 !important;
+}
+
+@media (max-width: 1100px) {
+
+  #portfolio .portfolio-grid {
+    grid-template-columns:
+      1fr !important;
+  }
+
 }
