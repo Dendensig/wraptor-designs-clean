@@ -1094,3 +1094,56 @@ h1 span {
   box-shadow:
     0 0 18px rgba(168,255,0,0.12);
 }
+/* =========================
+   BUILD DETAIL ROWS
+========================= */
+
+.build-details {
+  margin-top: 28px;
+
+  border-top:
+    1px solid rgba(255,255,255,0.06);
+
+  padding-top: 22px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.detail-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 20px;
+
+  padding-bottom: 10px;
+
+  border-bottom:
+    1px solid rgba(255,255,255,0.04);
+}
+
+.detail-row span {
+  color: #8e8e8e;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  font-size: 0.7rem;
+}
+
+.detail-row strong {
+  color: #ffffff;
+
+  font-size: 0.88rem;
+
+  letter-spacing: 1px;
+
+  text-align: right;
+}
