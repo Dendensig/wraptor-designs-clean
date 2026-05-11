@@ -911,9 +911,12 @@ h1 span {
    PORTFOLIO SYSTEM
 ========================= */
 
+/* =========================
+   PORTFOLIO SYSTEM
+========================= */
+
 .portfolio-grid {
   display: grid;
-
   grid-template-columns:
     repeat(auto-fit, minmax(320px, 1fr));
 
@@ -934,12 +937,12 @@ h1 span {
 
   overflow: hidden;
 
+  position: relative;
+
   transition:
     transform 0.4s ease,
     border-color 0.4s ease,
     box-shadow 0.4s ease;
-
-  position: relative;
 }
 
 .portfolio-card::before {
@@ -966,7 +969,8 @@ h1 span {
 .portfolio-card:hover {
   transform: translateY(-12px);
 
-  border-color: rgba(168,255,0,0.28);
+  border-color:
+    rgba(168,255,0,0.28);
 
   box-shadow:
     0 0 35px rgba(168,255,0,0.08),
@@ -1038,5 +1042,4 @@ h1 span {
   color: #cfcfcf;
 
   line-height: 1.7;
-}
 }
