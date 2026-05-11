@@ -89,8 +89,6 @@ export default function App() {
 
       </section>
 
-      {/* FULLSCREEN SHOWCASE */}
-
       <section className="fullscreen-showcase">
 
         <div className="showcase-overlay"></div>
@@ -301,6 +299,64 @@ export default function App() {
         </div>
 
       </section>
+
+      {/* PREMIUM FOOTER */}
+
+      <footer className="footer">
+
+        <div className="footer-glow"></div>
+
+        <div className="footer-content">
+
+          <div className="footer-brand">
+
+            <h2>
+              WRAPTOR
+              <span> DESIGNS</span>
+            </h2>
+
+            <p>
+              Premium wraps, bold branding,
+              and cinematic transformations
+              engineered to dominate attention.
+            </p>
+
+          </div>
+
+          <div className="footer-links">
+
+            <h3>
+              Navigate
+            </h3>
+
+            <a href="#services">Services</a>
+            <a href="#transformations">Transformations</a>
+            <a href="#contact">Contact</a>
+
+          </div>
+
+          <div className="footer-contact">
+
+            <h3>
+              Contact
+            </h3>
+
+            <p>(269) 277-9151</p>
+            <p>dennis@wraptordesigns.com</p>
+
+          </div>
+
+        </div>
+
+        <div className="footer-bottom">
+
+          <p>
+            © 2026 Wraptor Designs — WE WRAP ATTENTION.
+          </p>
+
+        </div>
+
+      </footer>
 
     </div>
   )
