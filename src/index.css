@@ -722,3 +722,11 @@ h1 span {
   }
 
 }
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 3.2rem;
+    line-height: 0.95;
+  }
+
+}
