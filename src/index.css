@@ -443,6 +443,7 @@ h1 span {
   background-size: cover;
 
   background-position: center;
+  display: none;
 }
 
 .portfolio-content {
