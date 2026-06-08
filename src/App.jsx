@@ -94,11 +94,11 @@ help your business get noticed.
               </a>
 
               <a
-                href="#portfolio"
-                className="secondary-button"
-              >
-                View Featured Builds
-              </a>
+  className="secondary-button"
+  href="tel:2692779151"
+>
+  Call Dennis
+</a>
 
             </div>
 
