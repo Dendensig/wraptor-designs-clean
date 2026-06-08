@@ -259,12 +259,12 @@ help your business get noticed.
 
               <div className="portfolio-specs">
 
-                <span>Satin Performance Wrap</span>
-                <span>Custom Livery System</span>
-                <span>Ceramic Protection</span>
-                <span>Visual Identity Package</span>
+  <span>Logo Installation</span>
+  <span>Vehicle Lettering</span>
+  <span>Phone Number Graphics</span>
+  <span>Website Branding</span>
 
-              </div>
+</div>
 
               <div className="build-details">
 
@@ -341,12 +341,12 @@ help your business get noticed.
 
               <div className="portfolio-specs">
 
-                <span>Fleet Graphics Package</span>
-                <span>Commercial Brand System</span>
-                <span>High-Visibility Layout</span>
-                <span>Business Identity Wrap</span>
+  <span>Business Logo</span>
+  <span>Contact Information</span>
+  <span>Custom Graphics</span>
+  <span>Brand Visibility</span>
 
-              </div>
+</div>
 
               <div className="build-details">
 
