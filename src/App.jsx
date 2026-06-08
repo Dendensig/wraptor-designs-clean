@@ -137,7 +137,7 @@ help your business get noticed.
           </h2>
 
           <h3>
-            WE WRAP ATTENTION.
+            WE BUILD ATTENTION.
           </h3>
 
         </div>
