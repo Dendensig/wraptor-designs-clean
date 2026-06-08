@@ -144,79 +144,84 @@ help your business get noticed.
 
       </section>
 
-      {/* =========================
-          SERVICES
-      ========================= */}
+{/* =========================
+    SERVICES
+========================= */}
 
-      <section
-        id="services"
-        className="section dark"
-      >
+<section
+  id="services"
+  className="section dark"
+>
 
-        <div className="section-title-wrap">
+  <div className="section-title-wrap">
 
-          <h2>
-            What We Transform
-          </h2>
+    <h2>
+      What We Transform
+    </h2>
 
-        </div>
+  </div>
 
-        <div className="service-card">
+  <div className="card-grid">
 
-  <h3>
-    Custom Graphics & Decals
-  </h3>
+    <div className="service-card">
 
-  <p>
-    Custom vinyl graphics, decals, striping,
-    and promotional designs built to make
-    your brand stand out.
-  </p>
+      <h3>
+        Custom Graphics & Decals
+      </h3>
 
-</div>
+      <p>
+        Custom vinyl graphics, decals, striping,
+        and promotional designs built to make
+        your brand stand out.
+      </p>
 
-<div className="service-card">
+    </div>
 
-  <h3>
-    Vehicle Lettering
-  </h3>
+    <div className="service-card">
 
-  <p>
-    Professional vehicle lettering and
-    branding solutions designed to increase
-    visibility and recognition.
-  </p>
+      <h3>
+        Vehicle Lettering
+      </h3>
 
-</div>
+      <p>
+        Professional vehicle lettering and
+        branding solutions designed to increase
+        visibility and recognition.
+      </p>
 
-<div className="service-card">
+    </div>
 
-  <h3>
-    Business Branding
-  </h3>
+    <div className="service-card">
 
-  <p>
-    Logos, visual identity systems, and
-    marketing graphics that help businesses
-    create a lasting impression.
-  </p>
+      <h3>
+        Business Branding
+      </h3>
 
-</div>
+      <p>
+        Logos, visual identity systems, and
+        marketing graphics that help businesses
+        create a lasting impression.
+      </p>
 
-<div className="service-card">
+    </div>
 
-  <h3>
-    Signs & Promotional Graphics
-  </h3>
+    <div className="service-card">
 
-  <p>
-    Banners, signage, window graphics,
-    and promotional materials tailored
-    to your business needs.
-  </p>
+      <h3>
+        Signs & Promotional Graphics
+      </h3>
 
-</div>
+      <p>
+        Banners, signage, window graphics,
+        and promotional materials tailored
+        to your business needs.
+      </p>
 
+    </div>
+
+  </div>
+
+</section>
       {/* =========================
           PORTFOLIO
       ========================= */}
