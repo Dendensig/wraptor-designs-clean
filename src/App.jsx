@@ -235,13 +235,11 @@ help your business get noticed.
 
           <div className="portfolio-card">
 
-            <div
-              className="portfolio-image"
-              style={{
-                backgroundImage:
-                  "url('/hero-car.png')"
-              }}
-            ></div>
+            <div className="portfolio-image placeholder-image">
+
+  <h3>Project Images Coming Soon</h3>
+
+</div>
 
             <div className="portfolio-content">
 
@@ -320,13 +318,11 @@ help your business get noticed.
 
           <div className="portfolio-card">
 
-            <div
-              className="portfolio-image"
-              style={{
-                backgroundImage:
-                  "url('/wraptor-van.png')"
-              }}
-            ></div>
+            <div className="portfolio-image placeholder-image">
+
+  <h3>Project Images Coming Soon</h3>
+
+</div>
 
             <div className="portfolio-content">
 
@@ -405,13 +401,11 @@ help your business get noticed.
 
           <div className="portfolio-card">
 
-            <div
-              className="portfolio-image"
-              style={{
-                backgroundImage:
-                  "url('/wraptor-truck.png')"
-              }}
-            ></div>
+            <div className="portfolio-image placeholder-image">
+
+  <h3>Project Images Coming Soon</h3>
+
+</div>
 
             <div className="portfolio-content">
 
