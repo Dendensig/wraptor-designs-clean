@@ -67,13 +67,11 @@ export default function App() {
           <div className="hero-left">
 
             <p className="eyebrow">
-              <>
-  Custom Graphics.
+              Custom Graphics.
   <br />
   Bold Brands.
   <br />
   Maximum Impact.
-</>
             </p>
 
             <h1>
@@ -87,22 +85,7 @@ and vinyl solutions designed to
 help your business get noticed.
             </p>
 
-            <div className="hero-buttons">
-
-              <a href="#contact">
-                Start Your Transformation
-              </a>
-
-              <a
-  className="secondary-button"
-  href="tel:2692779151"
->
-  Call Dennis
-</a>
-
             </div>
-
-          </div>
 
           <div className="hero-right">
 
