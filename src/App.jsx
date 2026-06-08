@@ -422,12 +422,12 @@ help your business get noticed.
 </p>
               <div className="portfolio-specs">
 
-                <span>Street Performance Livery</span>
-                <span>Custom Accent Graphics</span>
-                <span>Gloss Protection Finish</span>
-                <span>Motorsports Styling Package</span>
+  <span>Window Lettering</span>
+  <span>Business Hours</span>
+  <span>Logo Graphics</span>
+  <span>Storefront Branding</span>
 
-              </div>
+</div>
 
               <div className="build-details">
 
