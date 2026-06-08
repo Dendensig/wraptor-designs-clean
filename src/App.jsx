@@ -67,7 +67,13 @@ export default function App() {
           <div className="hero-left">
 
             <p className="eyebrow">
-              Custom Graphics. Bold Brands. Maximum Impact.
+              <>
+  Custom Graphics.
+  <br />
+  Bold Brands.
+  <br />
+  Maximum Impact.
+</>
             </p>
 
             <h1>
