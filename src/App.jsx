@@ -674,7 +674,7 @@ help your business get noticed.
         <div className="footer-bottom">
 
           <p>
-            © 2026 Wraptor Designs — WE WRAP ATTENTION.
+            © 2026 Wraptor Designs — WE BUILD ATTENTION.
           </p>
 
         </div>
