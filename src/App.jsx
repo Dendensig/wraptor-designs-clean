@@ -223,7 +223,7 @@ help your business get noticed.
           <h2>
             FEATURED
             <span style={{ color: '#a8ff00' }}>
-              {' '}PORTFOLIO
+              {' '}PROJECTS
             </span>
           </h2>
 
@@ -246,18 +246,18 @@ help your business get noticed.
             <div className="portfolio-content">
 
               <span className="portfolio-tag">
-                Exotic Supercar
-              </span>
+  Vehicle Lettering
+</span>
 
-              <h3>
-                SHADOW STRIKE GT
-              </h3>
+<h3>
+  CONTRACTOR TRUCK BRANDING
+</h3>
 
-              <p>
-                Aggressive satin-black and toxic green
-                performance wrap system designed to
-                dominate attention from every angle.
-              </p>
+<p>
+  Professional logos, contact information,
+  and custom vinyl graphics designed to
+  increase visibility and credibility.
+</p>
 
               <div className="portfolio-specs">
 
@@ -331,18 +331,18 @@ help your business get noticed.
             <div className="portfolio-content">
 
               <span className="portfolio-tag">
-                Fleet Branding
-              </span>
+  Trailer Branding
+</span>
 
-              <h3>
-                APEX FLEET ONE
-              </h3>
+<h3>
+  MOBILE BUSINESS BILLBOARD
+</h3>
 
-              <p>
-                High-visibility commercial wrap package
-                engineered to transform everyday business
-                vehicles into rolling brand dominance.
-              </p>
+<p>
+  Clean trailer branding systems that
+  transform everyday equipment into
+  high-visibility marketing assets.
+</p>
 
               <div className="portfolio-specs">
 
@@ -416,19 +416,18 @@ help your business get noticed.
             <div className="portfolio-content">
 
               <span className="portfolio-tag">
-                Performance Truck
-              </span>
+  Storefront Graphics
+</span>
 
-              <h3>
-                ROGUE TITAN
-              </h3>
+<h3>
+  BUSINESS FRONTAGE IDENTITY
+</h3>
 
-              <p>
-                Street-performance inspired wrap concept
-                combining aggressive geometry, cinematic
-                lighting, and modern motorsports attitude.
-              </p>
-
+<p>
+  Window graphics, business information,
+  and branding elements that help customers
+  recognize and remember your business.
+</p>
               <div className="portfolio-specs">
 
                 <span>Street Performance Livery</span>
