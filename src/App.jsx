@@ -268,48 +268,47 @@ help your business get noticed.
 
               <div className="build-details">
 
-                <div className="detail-row">
+  <div className="detail-row">
 
-                  <span>Platform</span>
+    <span>Vehicle Type</span>
 
-                  <strong>
-                    Lamborghini Inspired GT
-                  </strong>
+    <strong>
+      Contractor Work Truck
+    </strong>
 
-                </div>
+  </div>
 
-                <div className="detail-row">
+  <div className="detail-row">
 
-                  <span>Finish</span>
+    <span>Graphics</span>
 
-                  <strong>
-                    Satin Stealth Film
-                  </strong>
+    <strong>
+      Custom Cut Vinyl Package
+    </strong>
 
-                </div>
+  </div>
 
-                <div className="detail-row">
+  <div className="detail-row">
 
-                  <span>Protection</span>
+    <span>Brand Focus</span>
 
-                  <strong>
-                    Ceramic Shield Coating
-                  </strong>
+    <strong>
+      Business Visibility
+    </strong>
 
-                </div>
+  </div>
 
-                <div className="detail-row">
+  <div className="detail-row">
 
-                  <span>Design Direction</span>
+    <span>Design Style</span>
 
-                  <strong>
-                    Motorsport Aggression
-                  </strong>
+    <strong>
+      Professional Branding
+    </strong>
 
-                </div>
+  </div>
 
-              </div>
-
+</div>
             </div>
 
           </div>
@@ -361,38 +360,49 @@ help your business get noticed.
 
                 </div>
 
-                <div className="detail-row">
+                <div className="build-details">
 
-                  <span>Coverage</span>
+  <div className="detail-row">
 
-                  <strong>
-                    Full Commercial Wrap
-                  </strong>
+    <span>Trailer Type</span>
 
-                </div>
+    <strong>
+      Enclosed Cargo Trailer
+    </strong>
 
-                <div className="detail-row">
+  </div>
 
-                  <span>Brand Focus</span>
+  <div className="detail-row">
 
-                  <strong>
-                    High Visibility Marketing
-                  </strong>
+    <span>Graphics</span>
 
-                </div>
+    <strong>
+      Business Branding Package
+    </strong>
 
-                <div className="detail-row">
+  </div>
 
-                  <span>Visual Style</span>
+  <div className="detail-row">
 
-                  <strong>
-                    Modern Corporate Aggression
-                  </strong>
+    <span>Marketing Goal</span>
 
-                </div>
+    <strong>
+      Mobile Advertising
+    </strong>
 
-              </div>
+  </div>
 
+  <div className="detail-row">
+
+    <span>Visual Style</span>
+
+    <strong>
+      High Visibility Design
+    </strong>
+
+  </div>
+
+</div>
             </div>
 
           </div>
@@ -433,48 +443,47 @@ help your business get noticed.
 
               <div className="build-details">
 
-                <div className="detail-row">
+  <div className="detail-row">
 
-                  <span>Platform</span>
+    <span>Application</span>
 
-                  <strong>
-                    Performance Street Truck
-                  </strong>
+    <strong>
+      Storefront Window Graphics
+    </strong>
 
-                </div>
+  </div>
 
-                <div className="detail-row">
+  <div className="detail-row">
 
-                  <span>Finish</span>
+    <span>Elements</span>
 
-                  <strong>
-                    Gloss Metallic Package
-                  </strong>
+    <strong>
+      Logo & Business Information
+    </strong>
 
-                </div>
+  </div>
 
-                <div className="detail-row">
+  <div className="detail-row">
 
-                  <span>Theme</span>
+    <span>Brand Focus</span>
 
-                  <strong>
-                    Urban Motorsport Styling
-                  </strong>
+    <strong>
+      Customer Recognition
+    </strong>
 
-                </div>
+  </div>
 
-                <div className="detail-row">
+  <div className="detail-row">
 
-                  <span>Visual Tone</span>
+    <span>Visual Style</span>
 
-                  <strong>
-                    Aggressive Street Presence
-                  </strong>
+    <strong>
+      Professional Business Identity
+    </strong>
 
-                </div>
+  </div>
 
-              </div>
-
+</div>
             </div>
 
           </div>
