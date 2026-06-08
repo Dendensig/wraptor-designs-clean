@@ -49,13 +49,7 @@ export default function App() {
 
         </nav>
 
-        <a
-          className="quote-button"
-          href="#contact"
-        >
-          Start Your Project
-        </a>
-
+        
       </header>
 
       {/* =========================
