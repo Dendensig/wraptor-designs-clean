@@ -350,18 +350,6 @@ help your business get noticed.
 
               <div className="build-details">
 
-                <div className="detail-row">
-
-                  <span>Trailer Type</span>
-
-                  <strong>
-                    Enclosed Cargo Trailer
-                  </strong>
-
-                </div>
-
-                <div className="build-details">
-
   <div className="detail-row">
 
     <span>Trailer Type</span>
