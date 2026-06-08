@@ -77,15 +77,14 @@ export default function App() {
             </p>
 
             <h1>
-              WE WRAP
+              WE BUILD
               <span>ATTENTION</span>
             </h1>
 
             <p className="subtitle">
-              Wraptor Designs transforms vehicles,
-              storefronts, fleets, and brands into
-              high-impact visual experiences engineered
-              to dominate attention.
+              Custom graphics, decals, branding,
+and vinyl solutions designed to
+help your business get noticed.
             </p>
 
             <div className="hero-buttons">
