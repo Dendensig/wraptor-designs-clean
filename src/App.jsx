@@ -73,7 +73,7 @@ export default function App() {
           <div className="hero-left">
 
             <p className="eyebrow">
-              Premium Wraps. Bold Brands. Maximum Impact.
+              Custom Graphics. Bold Brands. Maximum Impact.
             </p>
 
             <h1>
