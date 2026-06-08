@@ -161,59 +161,61 @@ help your business get noticed.
 
         </div>
 
-        <div className="card-grid">
+        <div className="service-card">
 
-          <div className="service-card">
+  <h3>
+    Custom Graphics & Decals
+  </h3>
 
-            <h3>
-              Vehicle Wraps
-            </h3>
+  <p>
+    Custom vinyl graphics, decals, striping,
+    and promotional designs built to make
+    your brand stand out.
+  </p>
 
-            <p>
-              Full and partial wraps designed to create unforgettable road presence.
-            </p>
+</div>
 
-          </div>
+<div className="service-card">
 
-          <div className="service-card">
+  <h3>
+    Vehicle Lettering
+  </h3>
 
-            <h3>
-              Fleet Branding
-            </h3>
+  <p>
+    Professional vehicle lettering and
+    branding solutions designed to increase
+    visibility and recognition.
+  </p>
 
-            <p>
-              Fleet and business graphics built to generate visibility and authority.
-            </p>
+</div>
 
-          </div>
+<div className="service-card">
 
-          <div className="service-card">
+  <h3>
+    Business Branding
+  </h3>
 
-            <h3>
-              Storefront Graphics
-            </h3>
+  <p>
+    Logos, visual identity systems, and
+    marketing graphics that help businesses
+    create a lasting impression.
+  </p>
 
-            <p>
-              Bold visual installations that transform physical locations into brand statements.
-            </p>
+</div>
 
-          </div>
+<div className="service-card">
 
-          <div className="service-card">
+  <h3>
+    Signs & Promotional Graphics
+  </h3>
 
-            <h3>
-              Motorsports Design
-            </h3>
+  <p>
+    Banners, signage, window graphics,
+    and promotional materials tailored
+    to your business needs.
+  </p>
 
-            <p>
-              Race-inspired liveries and aggressive visual systems engineered for impact.
-            </p>
-
-          </div>
-
-        </div>
-
-      </section>
+</div>
 
       {/* =========================
           PORTFOLIO
