@@ -290,7 +290,7 @@ h1 span {
 .fullscreen-showcase {
   position: relative;
 
-  min-height: 100vh;
+  min-height: 60vh;
 
   display: flex;
 
