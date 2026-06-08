@@ -352,10 +352,10 @@ help your business get noticed.
 
                 <div className="detail-row">
 
-                  <span>Vehicle Type</span>
+                  <span>Trailer Type</span>
 
                   <strong>
-                    Commercial Transit Van
+                    Enclosed Cargo Trailer
                   </strong>
 
                 </div>
