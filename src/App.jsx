@@ -116,7 +116,7 @@ help YOU get noticed.
 
           <h2>
             WE DON’T JUST
-            <span> APPLY VINYL..</span>
+            <span> MAKE GRAPHICS..</span>
           </h2>
 
           <h3>
