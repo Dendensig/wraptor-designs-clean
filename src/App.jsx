@@ -606,9 +606,7 @@ help YOU get noticed.
             </h2>
 
             <p>
-              Premium wraps, bold branding,
-              and cinematic transformations
-              engineered to dominate attention.
+              Custom graphics, vehicle lettering, business branding, and vinyl solutions designed to help you stand out and get noticed.
             </p>
 
           </div>
