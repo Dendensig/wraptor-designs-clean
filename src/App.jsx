@@ -489,13 +489,13 @@ help YOU get noticed.
         <div className="section-title-wrap">
 
           <p className="impact-small">
-            Transformation
+            Business Visibility
           </p>
 
           <h2>
-            BEFORE ORDINARY.
+            STAND OUT.
             <span style={{ color: '#a8ff00' }}>
-              {' '}AFTER WRAPTOR.
+              {' '}GET NOTICED.
             </span>
           </h2>
 
