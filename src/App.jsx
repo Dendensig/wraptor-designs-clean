@@ -116,7 +116,7 @@ help YOU get noticed.
 
           <h2>
             WE DON’T JUST
-            <span> WRAP VEHICLES.</span>
+            <span> APPLY VINYL..</span>
           </h2>
 
           <h3>
