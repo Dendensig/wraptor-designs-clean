@@ -82,7 +82,7 @@ export default function App() {
             <p className="subtitle">
               Custom graphics, decals, branding,
 and vinyl solutions designed to
-help your business get noticed.
+help YOU get noticed.
             </p>
 
             </div>
