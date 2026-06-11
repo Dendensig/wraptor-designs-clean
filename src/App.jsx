@@ -235,165 +235,134 @@ help YOU get noticed.
 
           <div className="portfolio-card">
 
-            <div className="portfolio-image placeholder-image">
+  <div className="portfolio-image">
 
-  <h3>Project Images Coming Soon</h3>
-
-</div>
-
-            <div className="portfolio-content">
-
-              <span className="portfolio-tag">
-  Vehicle Lettering
-</span>
-
-<h3>
-  CONTRACTOR TRUCK BRANDING
-</h3>
-
-<p>
-  Professional logos, contact information,
-  and custom vinyl graphics designed to
-  increase visibility and credibility.
-</p>
-
-              <div className="portfolio-specs">
-
-  <span>Logo Installation</span>
-  <span>Vehicle Lettering</span>
-  <span>Phone Number Graphics</span>
-  <span>Website Branding</span>
-
-</div>
-
-              <div className="build-details">
-
-  <div className="detail-row">
-
-    <span>Vehicle Type</span>
-
-    <strong>
-      Contractor Work Truck
-    </strong>
+    <img
+      src="/projects/terrain/terrain-hero.jpg"
+      alt="GMC Terrain Elevation"
+    />
 
   </div>
 
-  <div className="detail-row">
+  <div className="portfolio-content">
 
-    <span>Graphics</span>
+    <span className="portfolio-tag">
+      Custom Vehicle Graphics
+    </span>
 
-    <strong>
-      Custom Cut Vinyl Package
-    </strong>
+    <h3>
+      GMC TERRAIN ELEVATION
+    </h3>
 
-  </div>
+    <p>
+      A custom graphics package featuring
+      Elevation rocker graphics, rear window
+      branding, and a complete installation
+      process from layout to final application.
+    </p>
 
-  <div className="detail-row">
+    <div className="portfolio-specs">
 
-    <span>Brand Focus</span>
+      <span>Elevation Graphics</span>
+      <span>Rear Window Graphics</span>
+      <span>Custom Layout</span>
+      <span>Vehicle Personalization</span>
 
-    <strong>
-      Business Visibility
-    </strong>
+    </div>
 
-  </div>
+    <div className="build-details">
 
-  <div className="detail-row">
+      <div className="detail-row">
+        <span>Vehicle</span>
+        <strong>2025 GMC Terrain Elevation</strong>
+      </div>
 
-    <span>Design Style</span>
+      <div className="detail-row">
+        <span>Graphics</span>
+        <strong>Custom Vinyl Package</strong>
+      </div>
 
-    <strong>
-      Professional Branding
-    </strong>
+      <div className="detail-row">
+        <span>Focus</span>
+        <strong>Vehicle Customization</strong>
+      </div>
+
+      <div className="detail-row">
+        <span>Project Type</span>
+        <strong>Personal Vehicle Graphics</strong>
+      </div>
+
+    </div>
 
   </div>
 
 </div>
-            </div>
-
-          </div>
 
           {/* CARD 2 */}
 
           <div className="portfolio-card">
 
-            <div className="portfolio-image placeholder-image">
+  <div className="portfolio-image">
 
-  <h3>Project Images Coming Soon</h3>
-
-</div>
-
-            <div className="portfolio-content">
-
-              <span className="portfolio-tag">
-  Trailer Branding
-</span>
-
-<h3>
-  MOBILE BUSINESS BILLBOARD
-</h3>
-
-<p>
-  Clean trailer branding systems that
-  transform everyday equipment into
-  high-visibility marketing assets.
-</p>
-
-              <div className="portfolio-specs">
-
-  <span>Business Logo</span>
-  <span>Contact Information</span>
-  <span>Custom Graphics</span>
-  <span>Brand Visibility</span>
-
-</div>
-
-              <div className="build-details">
-
-  <div className="detail-row">
-
-    <span>Trailer Type</span>
-
-    <strong>
-      Enclosed Cargo Trailer
-    </strong>
+    <img
+      src="/projects/f150/f150-hero.png"
+      alt="Wraptor F150"
+    />
 
   </div>
 
-  <div className="detail-row">
+  <div className="portfolio-content">
 
-    <span>Graphics</span>
+    <span className="portfolio-tag">
+      Business Vehicle Branding
+    </span>
 
-    <strong>
-      Business Branding Package
-    </strong>
+    <h3>
+      WRAPTOR F150
+    </h3>
 
-  </div>
+    <p>
+      A fully branded company vehicle featuring
+      custom graphics, hood accents, windshield
+      branding, and signature Wraptor styling.
+    </p>
 
-  <div className="detail-row">
+    <div className="portfolio-specs">
 
-    <span>Marketing Goal</span>
+      <span>Vehicle Branding</span>
+      <span>Window Graphics</span>
+      <span>Custom Graphics</span>
+      <span>Brand Identity</span>
 
-    <strong>
-      Mobile Advertising
-    </strong>
+    </div>
 
-  </div>
+    <div className="build-details">
 
-  <div className="detail-row">
+      <div className="detail-row">
+        <span>Vehicle</span>
+        <strong>Ford F150</strong>
+      </div>
 
-    <span>Visual Style</span>
+      <div className="detail-row">
+        <span>Graphics</span>
+        <strong>Full Branding Package</strong>
+      </div>
 
-    <strong>
-      High Visibility Design
-    </strong>
+      <div className="detail-row">
+        <span>Purpose</span>
+        <strong>Business Promotion</strong>
+      </div>
+
+      <div className="detail-row">
+        <span>Style</span>
+        <strong>Wraptor Signature Design</strong>
+      </div>
+
+    </div>
 
   </div>
 
 </div>
-            </div>
-
-          </div>
 
           {/* CARD 3 */}
 
