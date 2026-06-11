@@ -238,7 +238,7 @@ help YOU get noticed.
   <div className="portfolio-image">
 
     <img
-      src="/projects/terrain/terrain-hero.jpg"
+      src="/Terrain/Terrain-Hero.png"
       alt="GMC Terrain Elevation"
     />
 
