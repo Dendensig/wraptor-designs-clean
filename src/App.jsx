@@ -370,7 +370,7 @@ help YOU get noticed.
 
             <div className="portfolio-image">
   <img
-    src="/Ballz/Ballz-Hero.png"
+    src="/Ballz/Ballz-storefront.png"
     alt="Ballz Bowling Pro Shop"
   />
 </div>
