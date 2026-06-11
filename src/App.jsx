@@ -368,10 +368,11 @@ help YOU get noticed.
 
           <div className="portfolio-card">
 
-            <div className="portfolio-image placeholder-image">
-
-  <h3>Project Images Coming Soon</h3>
-
+            <div className="portfolio-image">
+  <img
+    src="/Ballz/Ballz-Hero.png"
+    alt="Ballz Bowling Pro Shop"
+  />
 </div>
 
             <div className="portfolio-content">
