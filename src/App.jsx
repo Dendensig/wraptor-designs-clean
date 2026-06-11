@@ -305,7 +305,7 @@ help YOU get noticed.
   <div className="portfolio-image">
 
     <img
-      src="/projects/f150/f150-hero.png"
+      src="/F150/f150-hero.png"
       alt="Wraptor F150"
     />
 
