@@ -233,8 +233,7 @@ help YOU get noticed.
 
           {/* CARD 1 */}
 
-          <div className="portfolio-card">
-
+          <a href="#terrain-project" className="portfolio-card">
   <div className="portfolio-image">
 
     <img
@@ -296,7 +295,7 @@ help YOU get noticed.
 
   </div>
 
-</div>
+          </a>
 
           {/* CARD 2 */}
 
@@ -473,11 +472,29 @@ help YOU get noticed.
 
         <div className="transform-wrap">
 
-          <img
-            src="/transform-van.png"
-            alt="Wrap Transformation"
-            className="transform-image"
-          />
+          <div className="before-after-wrap">
+
+  <div className="before-after-card">
+    <h3>BEFORE</h3>
+
+    <img
+      src="/Terrain/Terrain-Before.png"
+      alt="Terrain Before Graphics"
+      className="transform-image"
+    />
+  </div>
+
+  <div className="before-after-card">
+    <h3>AFTER</h3>
+
+    <img
+      src="/Terrain/Terrain-Side.png"
+      alt="Terrain After Graphics"
+      className="transform-image"
+    />
+  </div>
+
+</div>
 
         </div>
 
