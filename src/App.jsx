@@ -90,7 +90,7 @@ help YOU get noticed.
           <div className="hero-right">
 
             <img
-              src="/hero-car.png"
+              src="/wraptor-building-hero.jpg"
               alt="Wraptor Supercar"
             />
 
