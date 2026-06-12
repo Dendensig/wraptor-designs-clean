@@ -589,10 +589,7 @@ h1 span {
     linear-gradient(
       rgba(0,0,0,0.88),
       rgba(0,0,0,0.95)
-    ),
-    url(
-      'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d'
-    );
+       );
 
   background-size: cover;
 
