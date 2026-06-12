@@ -731,3 +731,14 @@ h1 span {
   }
 
 }
+.before-after-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.before-after-card h3 {
+  text-align: center;
+  color: #a8ff00;
+  margin-bottom: 15px;
+}
