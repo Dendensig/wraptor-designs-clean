@@ -303,11 +303,11 @@ h1 span {
   overflow: hidden;
 
   background:
-    linear-gradient(
-      rgba(0,0,0,0.82),
-      rgba(0,0,0,0.92)
-    ),
-    url('/wraptor-building-hero-1.jpg');
+  linear-gradient(
+    rgba(0,0,0,0.82),
+    rgba(0,0,0,0.92)
+  ),
+  url('/F150/F150-side.png');
   background-size: cover;
 
   background-position: center;
