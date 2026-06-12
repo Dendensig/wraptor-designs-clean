@@ -478,20 +478,20 @@ help YOU get noticed.
     <h3>BEFORE</h3>
 
     <img
-      src="/Terrain/Terrain-Before.png"
-      alt="Terrain Before Graphics"
-      className="transform-image"
-    />
+  src="/Terrain/terrain-before.png"
+  alt="Terrain Before Graphics"
+  className="transform-image"
+/>
   </div>
 
   <div className="before-after-card">
     <h3>AFTER</h3>
 
     <img
-      src="/Terrain/Terrain-Side.png"
-      alt="Terrain After Graphics"
-      className="transform-image"
-    />
+  src="/Terrain/Terrain-Hero.png"
+  alt="Terrain After Graphics"
+  className="transform-image"
+ />
   </div>
 
 </div>
